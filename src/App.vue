@@ -7,3 +7,11 @@
     </header>
   </main>
 </template>
+
+<script setup>
+
+// step 1: Import the component using its exact file path
+
+import Part1_CreateComponents from './components/Part1_CreateComponents.vue'
+
+</script>
