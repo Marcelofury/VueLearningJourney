@@ -16,3 +16,32 @@
         </div>
     </div>
 </template>
+
+<script setup>
+/**To make data 'reactive'(meaning Vue watches it and updates the screen when it changes), we must import 'ref' from the the core 'vue' package.
+ * 
+ * 
+ * 
+ */
+
+ import ref from 'vue'
+
+ //Declaring reactive string data types
+
+ const studentName = ref('Software Developer')
+ const platform = ref('Coursera')
+
+ //Declaring reactive number data types
+
+ const currentModule = ref(2)
+ const totalModules = ref(10)
+
+ /*  NOTE FOR GITHUB DOCUMENTATION:
+  When using <script setup>, any variable declared here with `ref()` 
+  can be used directly in the <template> by its name (e.g., studentName).
+  However, if you want to read or change its value inside this script block, 
+  you must append `.value` (e.g., currentModule.value = 3).
+*/
+console.log(`Currently testing interpolation for module: ${currentModule.value}`)
+
+</script>
