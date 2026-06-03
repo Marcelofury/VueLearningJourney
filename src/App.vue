@@ -15,3 +15,17 @@
 import Part1_CreateComponents from './components/Part1_CreateComponents.vue'
 
 </script>
+
+<style>
+/** Notice there is NO 'scoped' here.
+These are global styles that format our overall page layout.
+ */
+
+body{
+  background-color: #eef2f5;
+  margin:0;
+  padding: 0;
+}
+
+
+</style>
