@@ -3,8 +3,10 @@
     <header class="main-header">
       <h1>My Coursera Vue.js Learning Journey</h1>
       <p>Tracking daily progress and pushing modules to Github Chronologically</p>
-      <Part1_CreateComponents/>
+      
     </header>
+    <Part1_CreateComponents />
+    <Part2_Interpolation />
   </main>
 </template>
 
@@ -13,6 +15,7 @@
 // step 1: Import the component using its exact file path
 
 import Part1_CreateComponents from './components/Part1_CreateComponents.vue'
+import Part2_Interpolation from './components/Part2_Interpolation.vue'
 
 </script>
 
