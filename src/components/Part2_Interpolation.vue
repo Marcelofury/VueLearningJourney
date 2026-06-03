@@ -45,3 +45,32 @@
 console.log(`Currently testing interpolation for module: ${currentModule.value}`)
 
 </script>
+
+<style scoped>
+/** Scoped styles ensure this distinct theme doesn't bleed into Part 1
+
+*/
+.interpolation-theme{
+    border: 2px solid #35495e;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: #35495e;
+    margin-top: 0;
+}
+
+.demo-box{
+    background-color: #f1f5f9;
+    border-left: 4px solid #35495e;
+    padding:15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+</style>
