@@ -27,5 +27,8 @@ body{
   padding: 0;
 }
 
+.app_wrapper{
+  padding: 40px 20px;
+}
 
 </style>
