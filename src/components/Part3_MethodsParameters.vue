@@ -43,4 +43,27 @@ const incrementVideo = ()=>{
     videoCount.value++
     console.log(`Video Count updated to : ${videoCount.value}`)
 }
+
+/**
+ * Method 2; Function that accepts parameters.
+ * This takes 'topicName' and 'duration' from the template template button action and processes them dynamically
+ */
+
+const logTopicDetails =(topicName, duration) => {
+    feedbackMessage.value = `Targeting "${topicName}" which requires ${duration} minnutes.`
+    console.log(`User inspected topic: ${topicName} (${duration} mins)`)
+}
 </script>
+
+<style scoped>
+.methods-theme {
+border: 2px solid #42b883;
+background-color: #ffffff;
+border-radius: 12px;
+padding: 24px;
+margin: 20px auto;
+max-width: 600px;
+
+}
+
+</style>
