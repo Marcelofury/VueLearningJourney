@@ -24,7 +24,7 @@
  * 
  */
 
- import ref from 'vue'
+ import {ref} from 'vue'
 
  //Declaring reactive string data types
 
