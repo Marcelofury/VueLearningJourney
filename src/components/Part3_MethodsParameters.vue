@@ -8,7 +8,7 @@
         <h3>1. Basic Method (No Parameters)</h3>
         <p>Videos Reviewed : <mark> {{ videoCount }}</mark></p>
 
-        <button class="btn" @click="incrementVideos" >+1 Video Completed</button>
+        <button class="btn" @click="incrementVideo" >+1 Video Completed</button>
     </div>
 
     <div class="demo-box">
@@ -25,7 +25,7 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import {ref} from 'vue'
 
 // Reactive state tracking our data variables
@@ -40,7 +40,7 @@ const feedbackMessage = ref('')
  * Remember: Inside the <script setup> block, we must use '.value' to access or mutate a variable declared with ref().
  */
 const incrementVideo = ()=>{
-    videoCount.value++
+    videoCount.value++;
     console.log(`Video Count updated to : ${videoCount.value}`)
 }
 
