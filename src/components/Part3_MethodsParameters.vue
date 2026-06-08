@@ -71,5 +71,11 @@ h2{
     margin-top: 0;
 }
 
-
+.demo-box{
+    background-color: #f8fafc;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #e2e8f0;
+}
 </style>
