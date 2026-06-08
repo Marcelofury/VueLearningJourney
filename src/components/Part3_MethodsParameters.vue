@@ -95,4 +95,41 @@ h2{
     cursor: pointer;
     transition: background-color 0.2s;
 }
+.btn:hover{
+    background-color: #339668;
+}
+
+.btn-secondary{
+    background-color: #35495e;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn-secondary:hover{
+    background-color: #cbd5e1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+mark{
+    background-color: #cbd5e1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.feedback-text{
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-top: 10px;
+}
+.feedback-text span{
+    color: #35495e;
+    font-weight: bold;
+}
 </style>
