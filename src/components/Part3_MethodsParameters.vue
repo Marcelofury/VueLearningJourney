@@ -24,3 +24,23 @@
         </p>
     </div>
 </template>
+
+<script>
+import {ref} from 'vue'
+
+// Reactive state tracking our data variables
+const videoCount = ref(2) // simulatinf that we have completed 2 video items so far
+
+const feedbackMessage = ref('')
+
+// METHOS (standard Javascript functions)
+
+/**
+ * Method 1: Basic function without parameters.
+ * Remember: Inside the <script setup> block, we must use '.value' to access or mutate a variable declared with ref().
+ */
+const incrementVideo = ()=>{
+    videoCount.value++
+    console.log(`Video Count updated to : ${videoCount.value}`)
+}
+</script>
