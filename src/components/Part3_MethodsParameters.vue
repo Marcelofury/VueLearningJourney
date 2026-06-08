@@ -78,4 +78,21 @@ h2{
     margin-top: 15px;
     border: 1px solid #e2e8f0;
 }
+
+.button-group{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #42b883;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
 </style>
