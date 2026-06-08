@@ -7,6 +7,7 @@
     </header>
     <Part1_CreateComponents />
     <Part2_Interpolation />
+    <Part3_MethodsParameters />
   </main>
 </template>
 
@@ -16,6 +17,7 @@
 
 import Part1_CreateComponents from './components/Part1_CreateComponents.vue'
 import Part2_Interpolation from './components/Part2_Interpolation.vue'
+import Part3_MethodsParameters from './components/Part3_MethodsParameters.vue'
 
 </script>
 
